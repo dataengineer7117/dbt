@@ -12,3 +12,4 @@ Commands
 - dbt snapshot : creates the snapshot
 - dbt test : used to test the settings provided in schema.yml 
            : test sql provided example here: target/compiled/dbtlearn/models/schema.yml/accepted_values_dim_listings_c_a1aa7a84b642db78eeced221be457183.sql
+- Singular Tests: Those added in tests/ sql file

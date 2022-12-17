@@ -1,3 +1,4 @@
+--The result should return a 0 set result to pass
 SELECT
     *
 FROM
