@@ -1,0 +1,14 @@
+Code Snippets - https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero/blob/main/_course_resources/course-resources.md
+Course Git - https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero
+
+Commands
+- dbt init dbtlearn
+- dbt debug : checks if the connection is working fine (~/.dbt/profiles.yml)
+- dbt run : create models
+- dbt run --full-refresh : rebuild every incremental table
+- vi target/run/dbtlearn/models/dim/dim_listings_w_hosts.sql : shows SQL sent to dbt 
+- dbt seed : register the seed as a table in the datawarehouse
+- dbt compile : check if the templatizing / connection made is fine
+- dbt snapshot : creates the snapshot
+- dbt test : used to test the settings provided in schema.yml 
+           : test sql provided example here: target/compiled/dbtlearn/models/schema.yml/accepted_values_dim_listings_c_a1aa7a84b642db78eeced221be457183.sql
