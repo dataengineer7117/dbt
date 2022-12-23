@@ -34,6 +34,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   dbtlearn:
+    +post-hook:
+      - "GRANT SELECT ON {{ this }} TO ROLE REPORTER"
     +materialized: view # specifying default config
     # + means its a built-in property for dbt
     dim: # anything inside dim folder is materialized as table

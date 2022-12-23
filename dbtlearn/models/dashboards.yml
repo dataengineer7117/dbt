@@ -1,0 +1,16 @@
+version: 2
+
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://9854ce84.us1a.app.preset.io/superset/dashboard/p/7mGONy1NypM/
+    description: Executive Dashboard about Airbnb listings and hosts
+      
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Afaque Ahmad
+      email: dataengineer7117@gmail.com
