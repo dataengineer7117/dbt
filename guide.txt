@@ -20,3 +20,4 @@ Commands
 - Preset dashboard URL: https://9854ce84.us1a.app.preset.io/superset/dashboard/p/7mGONy1NypM/
 - Exposures: are configurations that point to external resources (reports, dashboards) and will be integrated into the documentation
 - dbt expectations: https://github.com/calogica/dbt-expectations
+- Testing a source table (prefix source) : dbt test --select source:airbnb.listings
