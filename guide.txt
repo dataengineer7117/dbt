@@ -21,3 +21,7 @@ Commands
 - Exposures: are configurations that point to external resources (reports, dashboards) and will be integrated into the documentation
 - dbt expectations: https://github.com/calogica/dbt-expectations
 - Testing a source table (prefix source) : dbt test --select source:airbnb.listings
+
+dbt Official Docs:
+- Setup dbt & Snowflake (with data): https://docs.getdbt.com/docs/get-started/getting-started/getting-set-up/setting-up-snowflake
+- Raw Tables: Sources
